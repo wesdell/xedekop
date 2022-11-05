@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+.none {
+  display: none;
+}
+.loader {
+  display: block;
+  margin: 0 auto;
+}
+.footer-static {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}

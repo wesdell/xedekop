@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xedekop | Sebastian Guerrero</title>
+    <meta
+      name="description"
+      content="This is a pokedex using the PokeAPI API. A Pokédex is a device that keeps track of all types of Pokémon."
+    />
+    <link rel="canonical" href="https://wesdell.github.io/xedekop/" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/utilities.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link
+      rel="icon"
+      href="https://wesdell.github.io/xedekop/./assets/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://wesdell.github.io/xedekop/./assets/img/favicon.png"
+    />
+    <meta name="theme-color" content="#e5d73e" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      property="og:title"
+      name="twitter:title"
+      content="Xedekop | Sebastian Guerrero"
+    />
+    <meta
+      property="og:image"
+      name="twitter:image"
+      content="https://wesdell.github.io/xedekop/./assets/img/pokedex.png"
+    />
+    <meta
+      property="og:url"
+      name="twitter:url"
+      content="https://wesdell.github.io/xedekop/"
+    />
+    <meta
+      property="og:description"
+      name="twitter:description"
+      content="This is a Pokédex using the PokeAPI API. A Pokédex is a device that keeps track of all types of Pokémon."
+    />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <section class="main-logo">
+      <figure class="logo">
+        <a href="index.html">
+          <img src="./assets/img/pokemon.png" alt="Pokemon logo" />
+        </a>
+      </figure>
+    </section>
+    <figure>
+      <img class="loader" src="./assets/img/loader.svg" alt="Loading..." />
+    </figure>
+    <main class="main-grid"></main>
+    <div class="links-container">
+      <nav class="links"></nav>
+    </div>
+    <footer class="footer">
+      <small
+        >Developed and designed by Edwin Sebastian Guerrero Pesantez. &copy;
+        2022. All rights reserved.
+      </small>
+    </footer>
+    <div class="modal-container">
+      <div class="modal modal-close">
+        <p class="close">X</p>
+        <img />
+        <div class="modal-content">
+          <h2></h2>
+          <div class="types"></div>
+          <div class="stats"></div>
+        </div>
+      </div>
+    </div>
+    <template id="template-pokemon">
+      <figure class="pokemon-card">
+        <img />
+        <figcaption></figcaption>
+      </figure>
+    </template>
+    <script defer src="./assets/js/pokemon.js"></script>
+    <script defer src="./assets/js/card.js"></script>
+  </body>
+</html>

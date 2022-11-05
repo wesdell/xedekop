@@ -1,0 +1,47 @@
+:root {
+  --first: #f3c93b;
+  --second: #07689f;
+  --second-light: #40a8c5;
+  --third: #a2d5f2;
+  --white: #f4f5f0;
+  --gray: #e5e7e8;
+  --max-width: 1200px;
+  --header-height: 3rem;
+}
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  background: linear-gradient(var(--gray), var(--white));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  margin: 0;
+  font-size: 2rem;
+  color: var(--second);
+}
+h2 {
+  letter-spacing: 0.1rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--second-light);
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
