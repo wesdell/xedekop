@@ -10,9 +10,8 @@ Xedekop is a pokedex website, with **Frontend features only**.
 
 ## Common functionalities are:
 
-- The user can save and view their notes
-- The user can update and delete their notes
-- User notes remain in local storage
+- Users can view some pokemons, like a catalog
+- Users can vies detailed pokemon descriptions
 
 ## Build with:
 
